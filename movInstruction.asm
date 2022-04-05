@@ -11,4 +11,7 @@
     main proc
         mov al, 15 ; moving value 15 to AL (low side of AX register)
     
+    main endp
+end
+    
 
