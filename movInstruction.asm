@@ -1,5 +1,3 @@
-.name movInstruction
-
 .model small
 
 .data
@@ -8,8 +6,10 @@
     var2 dw 0a112h  ; size => 2 bytes; hexadecimal; range => -32768 to 65536
     
 .code
-    main proc
+    main proc    
+        
         mov al, 15 ; moving value 15 to AL (low side of AX register)
+        mov dh, al
     
     main endp
 end
